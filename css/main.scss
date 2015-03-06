@@ -91,6 +91,7 @@ div#header{
     height: 60px;
     padding: 3px 0;
     color: $gold;
+    margin-top: 20px;
     .dowloadables{
         vertical-align: middle;
         display: inline;
@@ -121,11 +122,11 @@ div#landing{
     }
     div#buttons{
         margin: $spacing-unit*1.5 0;
-        a.btn{
+        .btn{
             padding: 6px $spacing-unit/2;
             margin: 0 $spacing-unit/2;
             border-top: 4px solid $gold;
-            border-bottom: 4px solid $gold;   
+            border-bottom: 4px solid $gold; 
             &:hover{
                 text-decoration: none;
                 color: $brand-color;

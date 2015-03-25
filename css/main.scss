@@ -96,6 +96,7 @@ div#header{
         vertical-align: middle;
         display: inline;
         a{
+            white-space: nowrap;
             color: $gold;
             margin: 0 $spacing-unit/2;
             letter-spacing: 1px;
@@ -107,6 +108,7 @@ div#header{
 }
 
 div#landing{
+    margin-top: 60px;
     text-align: center;
     color: $gold;
     letter-spacing: 1px;

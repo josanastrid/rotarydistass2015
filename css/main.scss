@@ -53,7 +53,8 @@ $on-laptop:        960px;
 @import "bootstrap/forms";
 @import "animations";
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "countdown";
+@import "base", "countdown", "home";
+
 
 body{
     background-image: $background-image;

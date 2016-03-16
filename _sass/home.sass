@@ -2,29 +2,27 @@ h1, h2, h3, h4, h5, h6
   font-weight: 400
   font-family: $header-font-family
 
+body
+  background-image: url('/img/countdown-bg.jpg')
+  background-size: cover
+  background-attachment: fixed
+
+
 .banner-border
   position: relative
   text-align: center
   padding: $spacing-unit / 2 0
-  border-top: 12px solid $brand-color
-  border-bottom: 12px solid $brand-color
-  -webkit-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
-  -moz-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
-  box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
   .banner
     color: $grey-color
-    background-color: $brand-color
+    background-color: white
     padding: $spacing-unit / 2 0
-    -webkit-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
-    -moz-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
-    box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
+
     h1
       margin: 0
 
 #header
-  padding: 3px 0
-  color: $gold
-  margin-top: 20px
+  background-color: rgba(50, 59, 71, 0.3)
+  padding: 20px 0
   .dowloadables
     vertical-align: middle
     display: inline
@@ -33,11 +31,15 @@ h1, h2, h3, h4, h5, h6
       color: $gold
       margin: 0 $spacing-unit / 2
       letter-spacing: 1px
+      font-size: 11px
       &:hover
         color: $brand-color
 
 #landing
-  margin-top: 60px
+  padding: 60px 0
+  background-image: url('/img/countdown-bg.jpg')
+  background-size: cover
+  background-attachment: fixed
   text-align: center
   color: $gold
   letter-spacing: 1px
@@ -61,22 +63,22 @@ h1, h2, h3, h4, h5, h6
         border-top: 4px solid $brand-color
         border-bottom: 4px solid $brand-color
   #arrow-down
-    opacity: 0.5
-    &:hover
-      opacity: 1
+    opacity: 1
+    //&:hover
+    //  opacity: 1
 
 #countdown
   .banner-border
     margin: $spacing-unit * 2 0 $spacing-unit
     .banner
-      padding: $spacing-unit 0
+      padding: 70px 0
 
 #registration
-  background-color: $brand-color
+  background-color: white
   color: $grey-color
-  -webkit-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
-  -moz-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
-  box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
+  //-webkit-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
+  //-moz-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
+  //box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.75)
   padding: 30px 30px 90px
   margin-top: $spacing-unit
   ol

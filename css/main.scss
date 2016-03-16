@@ -6,8 +6,10 @@
 
 
 // Our variables
-$base-font-family: 'Lato', sans-serif;
-$header-font-family: 'Montserrat', sans-serif;
+//$base-font-family: 'Gotham-Light', sans-serif;
+//$header-font-family: 'Montserrat', sans-serif;
+$base-font-family: 'Gotham-Light', sans-serif;
+$header-font-family: 'Gotham-Medium', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -43,6 +45,7 @@ $on-laptop:        960px;
         @content;
     }
 }
+@import "fonts";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 @import "bootstrap/scaffolding";

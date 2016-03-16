@@ -13,8 +13,8 @@ rotary.initScrollLinks = function(){
 
 rotary.initCountown = function(){
     $('.countdown').final_countdown({
-        start: new Date("March 1, 2015 8:00:00").getTime() / 1000,
-        end: new Date("April 11, 2015 8:00:00").getTime() / 1000,
+        start: new Date("March 16, 2016 8:00:00").getTime() / 1000,
+        end: new Date("April 23, 2016 8:00:00").getTime() / 1000,
         now: new Date().getTime() / 1000,
         seconds: {
             borderColor: '#282828',

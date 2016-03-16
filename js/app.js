@@ -17,19 +17,19 @@ rotary.initCountown = function(){
         end: new Date("April 23, 2016 8:00:00").getTime() / 1000,
         now: new Date().getTime() / 1000,
         seconds: {
-            borderColor: '#282828',
+            borderColor: 'white',
             borderWidth: '6'
         },
         minutes: {
-            borderColor: '#282828',
+            borderColor: 'white',
             borderWidth: '6'
         },
         hours: {
-            borderColor: '#282828',
+            borderColor: 'white',
             borderWidth: '6'
         },
         days: {
-            borderColor: '#282828',
+            borderColor: 'white',
             borderWidth: '6'
         }
     });
